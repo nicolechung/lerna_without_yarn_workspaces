@@ -8,7 +8,21 @@ npm install lerna -g
 
 
 ## Gotchas
-Cannot have @scope name in the root/package.json 
+Cannot have @org name in the root/package.json 
+
+:angry: Bad
+```
+// root package.json
+
+name: "@myorg/root"
+```
+
+:rocket: Good
+```
+// root package.json
+
+name: "myorg"
+```
 
 ## Adding a peer dependency to a package
 
