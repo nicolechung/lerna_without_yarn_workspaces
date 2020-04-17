@@ -22,3 +22,9 @@ lerna add react packages/two --peer
 ```
 lerna exec -- npm i
 ```
+
+## Running the `app`
+
+```
+lerna run start
+```
