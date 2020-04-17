@@ -16,3 +16,9 @@ Cannot have @scope name in the root/package.json
 ```
 lerna add react packages/two --peer
 ```
+
+## How to add package-lock to each package?!
+
+```
+lerna exec -- npm i
+```
