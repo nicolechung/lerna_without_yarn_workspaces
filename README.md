@@ -60,3 +60,12 @@ lerna bootstrap
 ```
 
 This will symlink the packages for you.
+
+## Using source code in dependencies
+
+If you want to say, use the ESNext code and avoid the work of tranpiling code, make sure to set that in your package.json:
+
+```
+"main": "index.js",
+"source": true,
+```
