@@ -12,7 +12,15 @@
   "peerDependencies": {
     "react": "^16.13.1"
   },
+  "dependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "@somescope/components": "1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
     "parcel-bundler": "^1.12.4"
   }
 }
